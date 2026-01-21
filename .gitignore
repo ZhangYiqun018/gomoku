@@ -16,8 +16,8 @@ dist-ssr
 src-tauri/target
 target
 
-# Runtime data
-data/
+# Runtime data (root only)
+/data/
 ratings.json
 ratings_base.json
 ratings_user.json
