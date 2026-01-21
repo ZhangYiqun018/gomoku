@@ -1,0 +1,6 @@
+export { SettingsCard } from './SettingsCard'
+export { SettingsHome } from './SettingsHome'
+export { ProfilePage } from './Profile'
+export { AIPage } from './AI'
+export { DataPage } from './Data'
+export { UsersPage } from './Users'

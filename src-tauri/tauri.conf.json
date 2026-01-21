@@ -1,0 +1,33 @@
+{
+  "build": {
+    "beforeBuildCommand": "bun run build",
+    "beforeDevCommand": "bun run dev",
+    "devPath": "http://localhost:5173",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Gomoku",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "dialog": {
+        "all": true
+      }
+    },
+    "windows": [
+      {
+        "title": "Gomoku",
+        "width": 960,
+        "height": 720,
+        "resizable": true
+      }
+    ],
+    "bundle": {
+      "active": true,
+      "identifier": "com.gomoku.app",
+      "resources": ["../scripts/*"]
+    }
+  }
+}
