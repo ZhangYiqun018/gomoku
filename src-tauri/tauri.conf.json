@@ -27,6 +27,11 @@
     "bundle": {
       "active": true,
       "identifier": "com.gomoku.app",
+      "icon": [
+        "icons/icon.ico",
+        "icons/icon.icns",
+        "icons/icon.png"
+      ],
       "resources": ["../scripts/*"]
     }
   }
